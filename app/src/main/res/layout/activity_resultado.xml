@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="50dp"
-    android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".ResultadoActivity">
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -22,28 +22,21 @@
         android:layout_gravity="center"
         android:textSize="20dp"
         android:textStyle="bold"/>
-    <EditText
-        android:id="@+id/edt_marca"
+    <TextView
+        android:id="@+id/txv_asegurable"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="Marca"/>
-
-    <EditText
-        android:id="@+id/edt_modelo"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imv_asegurable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txv_valor_seguro"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="Modelo"/>
-
-    <EditText
-        android:id="@+id/edt_anho"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="Año"/>
+        android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/btn_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Calcular Seguro"/>
+        android:text="Calcular nuevamente"/>
 
 </LinearLayout>

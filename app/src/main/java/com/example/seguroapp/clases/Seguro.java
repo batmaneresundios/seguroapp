@@ -5,9 +5,14 @@ public class Seguro {
     double valorSeguro;
     boolean asegurable;
 
+    public void calcularValorSeguro(int antiguedad){
+        this.valorSeguro = (this.valorUf * 0.1) * antiguedad;
+
+    }
     public double getValorUf() {
         return valorUf;
     }
+
 
     public void setValorUf(double valorUf) {
         this.valorUf = valorUf;
