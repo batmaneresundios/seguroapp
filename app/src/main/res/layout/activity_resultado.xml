@@ -25,16 +25,23 @@
     <TextView
         android:id="@+id/txv_asegurable"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
     <ImageView
         android:id="@+id/imv_asegurable"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
     <TextView
         android:id="@+id/txv_valor_seguro"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
     <Button
+        android:id="@+id/btn_regresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular nuevamente"/>

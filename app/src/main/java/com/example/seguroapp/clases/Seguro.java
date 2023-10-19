@@ -9,6 +9,16 @@ public class Seguro {
         this.valorSeguro = (this.valorUf * 0.1) * antiguedad;
 
     }
+    //Determinamos si el vehiculo es menor o igual a 10 años para determinar si es asegurable
+    public void determinarAsegurabilidad(int antiguedad) {
+        this.asegurable = false;
+        if(antiguedad <=10){
+            this.asegurable = true;
+        }
+
+
+    }
+
     public double getValorUf() {
         return valorUf;
     }
